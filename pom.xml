@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.mulders</groupId>
     <artifactId>mcs</artifactId>
-    <version>0.6.5-SNAPSHOT</version>
+    <version>0.6.6</version>
 
     <description>Search Maven Central from your command line!</description>
     <inceptionYear>2021</inceptionYear>
@@ -35,15 +34,16 @@
 <!--        2.9.x  is the most up-to-date version that still runs on Java 8.-->
 
         <artifactsDir>target/distributions</artifactsDir>
-        <executable-suffix></executable-suffix>
-        <native-image-arguments></native-image-arguments>
+        <executable-suffix />
+        <native-image-arguments />
     </properties>
 
     <scm>
         <connection>scm:git:git://github.com/Bhaskar1312/mcs.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/Bhaskar1312/mcs.git</developerConnection>
         <url>http://github.com/Bhaskar1312/mcs</url>
-    </scm>
+      <tag>0.6.6-tag</tag>
+  </scm>
 
     <licenses>
         <license>
