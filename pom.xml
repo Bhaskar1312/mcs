@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.mulders</groupId>
     <artifactId>mcs</artifactId>
-    <version>0.6.6</version>
+    <version>0.6.7-SNAPSHOT</version>
 
     <description>Search Maven Central from your command line!</description>
     <inceptionYear>2021</inceptionYear>
@@ -42,7 +42,7 @@
         <connection>scm:git:git://github.com/Bhaskar1312/mcs.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/Bhaskar1312/mcs.git</developerConnection>
         <url>http://github.com/Bhaskar1312/mcs</url>
-      <tag>0.6.6-tag</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <licenses>
