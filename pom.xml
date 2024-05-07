@@ -39,6 +39,12 @@
         <native-image-arguments></native-image-arguments>
     </properties>
 
+    <scm>
+        <connection>scm:git:git://github.com/Bhaskar1312/mcs.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/Bhaskar1312/mcs.git</developerConnection>
+        <url>http://github.com/Bhaskar1312/mcs</url>
+    </scm>
+
     <licenses>
         <license>
             <name>MIT</name>
